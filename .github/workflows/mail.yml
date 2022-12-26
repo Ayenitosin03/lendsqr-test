@@ -45,7 +45,7 @@ jobs:
           ENVIRONMENT_URL: environment.json    
         run: |
 
-        newman run 'postman_collection.json' -e 'environment.json' -r htmlextra
+       npx newman run 'postman_collection.json' -e 'environment.json' -r htmlextra
      
       # Upload the reports to TestArtifacts directory
       - name: Output the results
