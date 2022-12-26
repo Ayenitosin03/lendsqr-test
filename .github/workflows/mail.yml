@@ -43,7 +43,7 @@ jobs:
           COLLECTION_URL: postman_collection.json
           ENVIRONMENT_URL: environment.json    
         run:
-          newman run postman_collection.json -e environment.json --suppress-exit-code -r htmlextra --reporter-htmlextra-export testArtifacts/htmlreport.html
+          newman run postman_collection.json -e environment.json 
       # Upload the reports to TestArtifacts directory
       - name: Output the results
         uses: actions/upload-artifact@v2
