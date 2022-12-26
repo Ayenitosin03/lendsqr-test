@@ -20,7 +20,6 @@ jobs:
        
  
     steps:
-      # Check out the repo, so the job can access it.  
       - uses: actions/checkout@v2
       # Install Node on the runner
       - name: Use Node.js ${{ matrix.node-version }}      
