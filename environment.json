@@ -1,0 +1,15 @@
+{
+	"id": "74b0e235-1820-4ee9-a21b-6665f2df9140",
+	"name": "Task 3",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "https://reqres.in",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2022-12-26T14:33:28.875Z",
+	"_postman_exported_using": "Postman/10.6.9-221219-0711"
+}
